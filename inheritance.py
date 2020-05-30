@@ -24,13 +24,22 @@ class Child(Parent):
 
 billy_cyrus = Parent("cyrus", "blue")
 
+
+
 " #def one more function in parent class and call it "
+
+
 billy_cyrus.show_info()
 
 print(billy_cyrus.last_name)
 
 
+
+
+
 " #Instance of Child class "
+
+
 
 miley_cyrus = Child("cyrus", "blue", 5)
 
