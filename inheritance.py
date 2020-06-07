@@ -22,6 +22,7 @@ class Child(Parent):
 
 " #Instance of Parent class "
 
+
 billy_cyrus = Parent("cyrus", "blue")
 
 
@@ -43,9 +44,13 @@ print(billy_cyrus.last_name)
 
 miley_cyrus = Child("cyrus", "blue", 5)
 
+
+
 """Method Overriding"""
 # Case 1 - If the show_info method/function is in parent & not child : Child class will call parent other functions(its not in child but can inherit from parent) :
 # Case 2 - If the show info method/function is in child with added info, it will call child's info method and not the parent :
+
+
 
 miley_cyrus.show_info()
 
